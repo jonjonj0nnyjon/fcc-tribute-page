@@ -1,0 +1,140 @@
+/* Mobile */
+@media (min-width: 768px){
+    /* Insert Mobile Specific CSS Here*/
+    }
+    
+    /* Global */
+    :root {
+      --background-color1: #fff;
+      --background-color2: black;
+      --heading-color1: black;
+      --link-color1: rgba(35,0,255,1);
+      --link-color1-hover: rgba(255,159,0,1);
+      --text-color1: black;
+      --text-color2: black;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-color1);
+    }
+    
+    body {
+      padding-top: 100px;
+    }
+    
+    .page {
+      width: 100%;
+      min-height: 150px;
+    }
+    
+    h1 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: var(--heading-color1);
+      text-decoration: none;
+      text-align: left;
+    }
+    
+    h2 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--heading-color1);
+      text-decoration: none;
+    }
+    
+    h3 {
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--heading-color1);
+      text-decoration: none;
+    }
+    
+    li {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--text-color1);
+      text-decoration: none;
+    }
+    
+    p {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--text-color1);
+      text-decoration: none;
+    }
+    
+    a {
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--link-color1);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: var(--link-color1-hover);
+    }
+    
+    /* Nav Bar */
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 20px 10%;
+      background-color: var(--background-color2);
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid;
+    }
+    
+    nav {
+      background-color: var(--background-color2);
+    }
+    
+    .logo-text {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+      background-color: var(--background-color2);
+    }
+    
+    /* Page */
+    section {
+      padding: 40px 10%;
+    }
+    
+    .image, #image {
+      max-width: 100%;
+      min-width: 200px;
+      max-height: 400px;
+      img-align: center;
+    }
+    
+    img, #img-caption {
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+    
+    #tribute-info {
+      width: 50%;
+      margin: auto;
+      text-padding: 15px 15px;
+    }
+    
+    blockquote {
+      padding: 20px;
+    }
